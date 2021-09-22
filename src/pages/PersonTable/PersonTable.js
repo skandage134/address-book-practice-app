@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { fetchPersons } from "services/PersonService";
 import Table from "components/Table/Table";
 import CustomPagination from "components/Pagination";
-import PersonDetails from "pages/PersonDetails";
+import PersonDetails from "./components/PersonDetails";
 
 import * as style from "./PersonTable.module.scss";
 
