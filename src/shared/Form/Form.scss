@@ -1,0 +1,35 @@
+@import "../../Styles/colours.scss";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+
+  .form__formSection {
+    width: 50%;
+  }
+
+  .form_formImage {
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .form__formGroup {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 0;
+
+    .form__formLabel {
+      width: 25%;
+      padding-right: 2em;
+      color: $colour-highlight-primary;
+    }
+
+    .form__formInput {
+      color: white;
+      border: none;
+      font-weight: bold;
+      background-color: transparent;
+    }
+  }
+}
