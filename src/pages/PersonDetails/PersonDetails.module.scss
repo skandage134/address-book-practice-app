@@ -1,7 +1,10 @@
 @import "styles/colours.scss";
 
 .PersonDetails {
-  background-color: $colour-neutral-primary;
+  background-color: $colour-neutral-secondary;
   width: 30%;
+  padding: 0 2em;
+  border-radius: 10px;
+  height: 90%;
   margin: 0 1em;
 }

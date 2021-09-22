@@ -1,7 +1,7 @@
 import { Switch, Router, Route } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
-import Header from "shared/Header";
+import Header from "components/Header";
 import PersonTable from "pages/PersonTable";
 
 import "./App.scss";

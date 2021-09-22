@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
 import { fetchPersons } from "services/PersonService";
-import Table from "shared/Table/Table";
-import CustomPagination from "shared/Pagination";
+import Table from "components/Table/Table";
+import CustomPagination from "components/Pagination";
 import PersonDetails from "pages/PersonDetails";
 
 import * as style from "./PersonTable.module.scss";
@@ -51,7 +51,7 @@ const PersonTable = () => {
   }, [page]);
 
   return (
-    <div class={style.BodyContainer}>
+    <div className={style.BodyContainer}>
       <div className={style.PersonTable}>
         <Table
           tableHeader={tableHeader}
